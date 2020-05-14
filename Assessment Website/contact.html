@@ -3,58 +3,56 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/k.ico" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Me</title>
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/contact.js"></script>
 </head>
-
 
 </nav>
 <div id="section1" class="section">
     <section id="intro">
         <div class="menu">
             <ul>
-                    <a href="index.html"> Home</a>
+                <li>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="aboutme.html"> About Me</a>
+                    <a href="aboutme.html">About Me</a>
                 </li>
                 <li>
-                    <a href="acidctrl.html"> ACID CTRL</a>
+                    <a href="acidctrl.html">ACID CTRL</a>
                 </li>
                 <li>
-                    <a href="contact.html"> Contact Me</a>
+                    <a class="active" href="contact.html">Contact Me</a>
                 </li>
             </ul>
         </div>
-<body>
-    
-    <body onload="main()">
 
-    
-        <form action="http://google.com" id="contact-form" method="get">
-            
-            <p>Contact me!</p>
-            <p><input type="text" name="name" id="name" placeholder="name" /></p>
-            <p id="nameRequiredError" class="error" style="display:none; color:red">
-              Name is required
-            </p>
-            <p><input type="email" name="email" id="email" placeholder="email" /></p>
-            <p id="emailRequiredError" class="error" style="display:none;color:red">
-              Email is required
-            </p>
-                <label  for="suggestion"> Input your message here: </label></p>
-            <textarea name="suggestions" rows="5" cols="35"> </textarea>
-    </fieldset>
-   
+        <body>
 
-        
+            <body onload="main()">
+                <section id="form">
+                    <form action="http://google.com" id="contact-form" method="get">
 
-        
-<p><input type="submit" value="Submit"></p>
-</form>
+                        <p style="font-size: 30px;">Contact me!</p>
+                        <img class="contact-icons" src="/img/username.png">
+                        <p><input type="text" name="name" id="name" placeholder="Name" required></p>
+                        <p id="nameRequiredError" class="error" style="display:none; color:red">
+                            Name is required
+                        </p>
+                        <img class="contact-icons" src="/img/mail.png">
+                        <p><input type="email" name="email" id="email" placeholder="Email" required></p>
+                        <p id="emailRequiredError" class="error" style="display:none;color:red">
+                            Email is required
+                        </p>
+                        <label for="suggestion"> Input your message here: </label></p>
+                        <textarea name="suggestions" rows="5" cols="35" required></textarea>
+                        <p><input class="button" type="submit" value="Submit"></p>
+                    </form>
+                </section>
+            </body>
 
-</body>
 </html>

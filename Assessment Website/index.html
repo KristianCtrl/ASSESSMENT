@@ -3,42 +3,40 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/k.ico" type="image/x-icon">
     <title>Kristian's World</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="/js/day.js"></script>
 </head>
 
-
-    </nav>
+<body onload="greeting()">
     <div id="section1" class="section">
         <section id="intro">
             <div class="menu">
-                <ul> <a href="index.html"> Home</a>
+                <ul>
+                    <li>
+                        <a class="active" href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="aboutme.html"> About Me</a>
+                        <a href="aboutme.html">About Me</a>
                     </li>
                     <li>
-                        <a href="acidctrl.html"> ACID CTRL</a>
+                        <a href="acidctrl.html">ACID CTRL</a>
                     </li>
                     <li>
-                        <a href="contact.html"> Contact Me</a>
+                        <a href="contact.html">Contact Me</a>
                     </li>
                 </ul>
             </div>
-            
-
             <div id="photo">
                 <img src="img/me.jpg" class="me">
             </div>
-         
-
             <div id="fronttxt">
                 <h2>Kristian Murphy</h2>
-              
                 <h3>Solent Student & Entrepreneur</h3>
+                <p id="greeting"></p>
             </div>
-
-
-
+</body>
 
 </html>
