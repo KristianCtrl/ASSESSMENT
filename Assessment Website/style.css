@@ -1,0 +1,278 @@
+/* Backend Backend Start */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: #0c0b0b;
+}
+
+
+/* Backend Backend End */
+
+
+/* Navigation Bar Start */
+
+ul li {
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+ul li a {
+    color: purple;
+}
+
+.active {
+    color: aqua;
+}
+
+
+/* Navigation Bar End */
+
+.section {
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: purple;
+}
+
+#fronttxt {
+    margin-left: 10%;
+    height: 80%;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #790f59;
+}
+
+#about img {
+    padding-top: 50px;
+    max-width: 150px;
+}
+
+#container {
+    margin-top: 30px;
+    width: 100%;
+}
+
+#left {
+    background-color: black;
+    float: left;
+    width: 360px;
+    height: 440px;
+    margin: 0 0 0 190px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px purple;
+}
+
+#centre {
+    background-color: black;
+    margin: 0 auto;
+    width: 360px;
+    height: 440px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px purple;
+}
+
+#right {
+    background-color: black;
+    float: right;
+    width: 360px;
+    height: 440px;
+    margin: 0 190px 0 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px purple;
+}
+
+.text {
+    margin-left: 10%;
+    height: 80%;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #790f59;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.me {
+    width: 300px;
+    overflow: hidden;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px purple;
+}
+
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#photo {
+    display: block;
+    margin-left: auto;
+    padding-top: 8%;
+    margin-right: auto;
+    width: 30%;
+}
+
+.images {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.aboutmebox {
+    display: block;
+    padding: 10px;
+    background-color: black;
+    float: left;
+    width: 330px;
+    height: 440px;
+    margin: 10px 0px 15px 205px;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 0px 0px 15px purple;
+}
+
+
+/* Contact Form Start */
+
+#form {
+    padding-top: 100px;
+}
+
+#contact-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: black;
+    box-shadow: 0px 0px 15px purple;
+    border-radius: 5px;
+}
+
+.contact-icons {
+    float: left;
+    max-width: 45px;
+    margin-right: 12px;
+}
+
+input[type=text] {
+    width: 81%;
+    padding: 12px 8px;
+    box-sizing: border-box;
+    color: purple;
+    border-radius: 5px;
+}
+
+input[type=email] {
+    width: 81%;
+    padding: 12px 8px;
+    box-sizing: border-box;
+    color: purple;
+    border-radius: 5px;
+}
+
+textarea {
+    padding: 12px 8px;
+    box-sizing: border-box;
+    color: purple;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #ffffff00;
+    border: 2px solid purple;
+    box-shadow: 0px 0px 15px purple;
+}
+
+.button:hover {
+    background-color: purple;
+    color: white;
+    box-shadow: 0px 0px 0px purple;
+}
+
+.pp {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.menuhover:hover {
+    color: aqua;
+}
+
+@media only screen and (max-width: 1650px) {
+    #left {
+        margin: 0 auto;
+        margin-top: 70px;
+        float: none;
+    }
+    #right {
+        margin: 0 auto;
+        margin-top: 70px;
+        float: none;
+    }
+    #centre {
+        margin: 0 auto;
+        margin-top: 70px;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .me {
+        margin-left: -25%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        max-width: 500px;
+        margin: auto;
+        width: 300px;
+    }
+    .me {
+        max-width: 220px;
+        display: block;
+        margin-left: -15%;
+        margin-right: auto;
+        width: 90px;
+    }
+    #left {
+        margin: 50 -100px;
+    }
+    #right {
+        margin: 50 -100px;
+    }
+    #centre {
+        margin: 50 -100px;
+    }
+}
